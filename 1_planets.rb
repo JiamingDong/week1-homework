@@ -19,3 +19,9 @@ planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'Uranus', '
 #
 # Your code goes here:
 #
+$i = 0
+
+planets.each do |word|
+    $i +=1
+    puts "Planet #$i: #{word}"
+end
